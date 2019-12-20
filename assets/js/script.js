@@ -1,19 +1,16 @@
 $(window).scroll(function() {
-    console.log('yes')
 
-    let wScroll = $(window).scrollTop;
+    var wScroll = $(window).scrollTop;
 
-    let oboutOffset = $('.whoAre').offset.top;
+    var oboutOffset = $('.whoAre').offset.top;
 
     if (wScroll > oboutOffset) {
-
-        $('.navbar').addClass("navBlue");
+        console.log('yes')
+        $('.main_navbar nav').addClass("navBlue");
     } else {
 
-        $('.navbar').removeClass("navBlue");
+        $('.main_navbar nav').removeClass("navBlue");
     }
-
-
 
 });
 
