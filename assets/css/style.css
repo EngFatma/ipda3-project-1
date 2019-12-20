@@ -4,6 +4,19 @@
     }
     /* start navbar */
     
+    .navBlue {
+        padding: 0px 50px;
+        background-color: #1489ed;
+    }
+    
+    .navbar {
+        transition: padding 1s, background-color 1s;
+        -webkit-transition: padding 1s, background-color 1s;
+        -moz-transition: padding 1s, background-color 1s;
+        -ms-transition: padding 1s, background-color 1s;
+        -o-transition: padding 1s, background-color 1s;
+    }
+    
     .main_navbar {
         direction: rtl;
     }

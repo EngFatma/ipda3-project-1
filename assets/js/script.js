@@ -93,7 +93,7 @@ $(document).ready(function() {
 
 });
 
-/* start slick carousel initialization  */
+/* end slick carousel initialization  */
 
 
 /****** start card carousel  */
