@@ -1,8 +1,42 @@
+$(window).scroll(function() {
+    console.log('yes')
+
+    let wScroll = $(window).scrollTop;
+
+    let oboutOffset = $('.whoAre').offset.top;
+
+    if (wScroll > oboutOffset) {
+
+        $('.navbar').addClass("navBlue");
+    } else {
+
+        $('.navbar').removeClass("navBlue");
+    }
+
+
+
+});
+
+
 //loading
 $(document).ready(function() {
     $('.loading').fadeOut(1000);
     $('body').css('overflow', 'auto');
+
 });
+// end  document.ready event
+
+
+// scroll event 
+
+
+
+
+
+
+
+
+
 /* wow fire function  */
 new WOW().init();
 

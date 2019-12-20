@@ -5,8 +5,8 @@
     /* start navbar */
     
     .navBlue {
-        padding: 0px 50px;
-        background-color: #1489ed;
+        padding: 0px 50px !important;
+        background-color: #dbeaff!important;
     }
     
     .navbar {
